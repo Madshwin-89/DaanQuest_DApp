@@ -17,13 +17,14 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-white mb-2">Create a Campaign</h2>
             <p className="text-white/80 mb-6">Start a new fundraising campaign and receive crypto donations</p>
             <div className="bg-gray-200 rounded-lg w-full h-48 mb-6 flex items-center justify-center">
-              <Image
-                src="/placeholder.svg?height=150&width=150"
-                alt="Create Campaign Icon"
-                width={150}
-                height={150}
-                className="opacity-50"
-              />
+          <Image
+          src="/photo1.jpg"
+          alt="Create Campaign Icon"
+          width={150}
+          height={150}
+          className="opacity-50"
+        />
+
             </div>
             <Link href="/create-campaign">
               <button className="action-button w-full py-2">Create a Campaign</button>
@@ -35,7 +36,7 @@ export default function Home() {
             <p className="text-white/80 mb-6">Support existing campaigns with cryptocurrency donations</p>
             <div className="bg-gray-200 rounded-lg w-full h-48 mb-6 flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=150&width=150"
+                src="/photo.jpg"
                 alt="Donate Icon"
                 width={150}
                 height={150}
